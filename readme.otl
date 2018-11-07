@@ -32,6 +32,23 @@ save_dataset.py
 	called soybean_handled_dataset.
 soybean_model_inR.R
 	Code in R for performing predictions. This is more robust that soybean_new_model.
+	IMPORTANT:
+	    This function will ultimately produce a prediction data frame and an RMSE data frame.
+	    This data frame contains the predicted yields of all models ran in an execution of
+	    soybean_model_inR.R and the RMSEs of these models. The names of these CSVS are, respectively,
+	    as 11/7/18:
+	        "./all_yan_models_prediction" and "./all_yan_models_rmse"
+
+	    Side Effects:
+	        This code produces diagnostics of several of each model on the year 2016. If you wish
+	        to disable this, please comment out the code doing this (at the end of the file).
+
+	        It also temporarily obtains a prediction data frame for each model and saves it locally. These
+	        CSVS are removed in the event that all models within a batch run to completion. A batch is
+	        just a collection of models run during one execution.
+
+	        These diagnostics and files will appear in the predictionCode file.
+
 soybean_new_model.py
 	An adaptation of Yan's prediction model for corn to soybean
 catalog.R

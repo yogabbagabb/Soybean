@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef0bfd2-22e5-4b96-9b65-3e9474bd3c58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/Tgs_linear" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/Tgs_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_linear_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_poly_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_spline_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/examineData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_linear_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_poly_evi_poly_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_poly_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_evi_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_evi_poly_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/national_yield_stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_linear" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline_evi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline_evi_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_linear" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_poly_evi_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline_evi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline_evi_poly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizationCode/exploreND.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizationCode/exploreND.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizationCode/interannual.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizationCode/interannual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizationCode/modelCountyVariations.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizationCode/modelCountyVariations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizationCode/plotScatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizationCode/plotScatter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizationCode/printStats.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizationCode/printStats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Soybean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soybean.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" beforeDir="false" afterPath="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.otl" beforeDir="false" afterPath="$PROJECT_DIR$/readme.otl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,47 +17,53 @@
     <session id="-1536547856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="R" value="1" />
           <entry key="csv" value="1" />
-          <entry key="otl" value="1" />
+          <entry key="data" value="1" />
+          <entry key="otl" value="2" />
           <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6572" />
+          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="Python" value="6573" />
+          <entry key="R" value="6561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6572" />
+          <entry key="R" value="6566" />
+          <entry key="otl" value="304" />
+          <entry key="py" value="6573" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/visualizationCode/printStats.py">
+        <entry file="file://$PROJECT_DIR$/readme.otl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -105,6 +86,8 @@
         <option value="$PROJECT_DIR$/visualizationCode/plotScatter.py" />
         <option value="$PROJECT_DIR$/visualizationCode/modelCountyVariations.py" />
         <option value="$PROJECT_DIR$/visualizationCode/printStats.py" />
+        <option value="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" />
+        <option value="$PROJECT_DIR$/readme.otl" />
       </list>
     </option>
   </component>
@@ -114,11 +97,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="720" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="823" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,23 +108,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soybean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
-              <item name="visualizationCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,6 +126,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541628815060" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -179,34 +155,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541474043123</updated>
+      <workItem from="1541626102118" duration="2596000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2596000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287858" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,32 +212,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/func_crop_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5401">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-5401" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plan.otl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plan.otl" />
     <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_comparisons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-730">
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-730" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_yield_response_lowess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -254,20 +232,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_prediction_national.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/evi_poly_only_stats.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -276,9 +245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="116" column="33" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,9 +252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,28 +259,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-          <folding>
-            <element signature="e#17#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/exploreND.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/plotScatter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,9 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,28 +295,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_state_variability_causes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/printStats.py" />
+    <entry file="file://$PROJECT_DIR$/predictionCode/catalog.R">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictionCode/data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictionCode/soybean_model_inR.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="272" column="60" selection-start-line="272" selection-start-column="60" selection-end-line="272" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizationCode/printStats.py">
+    <entry file="file://$PROJECT_DIR$/readme.otl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
         </state>
       </provider>
     </entry>
