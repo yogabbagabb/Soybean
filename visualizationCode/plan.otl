@@ -1,0 +1,16 @@
+Objective: For each category of predictors (temperature, precipitation, vpd, evi), determine which
+predictors are the most significant. Ie determine which subset of predictors from May to September is the most significant
+in making a prediction:
+
+Methodology:
+	For each category of predictors:
+		For several different Lasso Tuning Parameters:
+			Run Lasso on a linear regression model using all five variants of a predictor
+				yield_rainfed_ana ~ Sigma_(j from 5 to 9) predictorCategory(j)
+			Select the four predictors that lasso determines are most significant
+				Call these predictors Alpha
+			Obtain a LOO cross validated RMSE (Beta) for the four predictors.
+				Keep track of a mapping between Alpha -> Beta
+		Perform the steps above but this time using ridge regression
+	Report the Alpha such that Beta is minimized
+		Plot the Alpha Beta dependence as well as the parameter values

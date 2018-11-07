@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bef0bfd2-22e5-4b96-9b65-3e9474bd3c58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/Tgs_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/Tgs_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_linear_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/evi_spline_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/examineData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_linear_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_poly_evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/lstmax_spline_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/national_yield_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline_evi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/tave_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_poly_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline_evi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/R_Prediction_CSVs/vpd_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/Tgs_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/Tgs_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_linear001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_linear002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_linear003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_linear004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/Tgs_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionTgs_linear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionTgs_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionevi_linear_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionevi_poly_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionevi_spline_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_linear_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_poly_evi_poly_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_poly_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_spline_evi_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_spline_evi_poly_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionlstmax_spline_only.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictiontave_linear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictiontave_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictiontave_spline.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictiontave_spline_evi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictiontave_spline_evi_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_linear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_poly_evi_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_spline.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_spline_evi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/coefficients_all_yan_models_predictionvpd_spline_evi_poly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_linear_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_linear_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_linear_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_linear_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_poly_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_poly_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_poly_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_poly_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_spline_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_spline_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_spline_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/evi_spline_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_linear_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_linear_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_linear_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_linear_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_evi_poly_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_evi_poly_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_evi_poly_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_evi_poly_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_poly_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_evi_poly_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_only001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_only002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_only003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/lstmax_spline_only004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_linear001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_linear002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_linear003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_linear004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/tave_spline_evi_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_linear001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_linear002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_linear003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_linear004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly_evi_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly_evi_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly_evi_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_poly_evi_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi_poly001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi_poly002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi_poly003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/diagonistics/vpd_spline_evi_poly004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/evi_linear_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/evi_spline_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_linear_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_poly_evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_spline_evi_poly_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/lstmax_spline_only" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/national_yield_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/Tgs_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/Tgs_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/evi_linear_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/evi_spline_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_linear_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_poly_evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_spline_evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/lstmax_spline_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/tave_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/tave_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/tave_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/tave_spline_evi_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/tave_spline_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_poly_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_spline_evi_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_spline_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/tave_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/tave_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/tave_spline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/tave_spline_evi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/tave_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_linear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_poly_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_spline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_spline_evi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/vpd_spline_evi_poly" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/soybean_handled_dataset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/soybean_model_data_2017.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/Tgs_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/Tgs_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/evi_linear_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/evi_spline_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_linear_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_poly_evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_spline_evi_poly_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/lstmax_spline_only_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/tave_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/tave_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/tave_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/tave_spline_evi_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/tave_spline_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_linear_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_poly_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_spline_evi_poly_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_spline_evi_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataFiles/yanModelsStats/vpd_spline_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flotsam/addToGit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/catalog.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/coefficients_vpd_spline_evi_poly_soybean_predictionvpd_spline_evi_poly_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/filesToMove.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/print_model_comparisons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/result/prediction_Tgs_linear_rainfed_leave_one_year_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/result/prediction_vpd_spline_evi_poly_Yan_suitable_rainfed_leave_one_year_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/save_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictionCode/soybean_new_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.otl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/combine_crop_model_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/counties_contiguous/counties_contiguous.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/counties_contiguous/counties_contiguous.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/counties_contiguous/counties_contiguous.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/func_crop_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_global_state_model_comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_map_county_fixed_effect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_map_prediction_performance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_comparisons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_interannual_variability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_interannual_variability_causes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_state_variability_causes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_prediction_national.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_yield_response_lowess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/states_contiguous/states_contiguous.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/states_contiguous/states_contiguous.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/states_contiguous/states_contiguous.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/tags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/vpd_spline_evi_poly_scatter_map.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/boxplots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/examineData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/exploreND.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/evi5_cubed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/evi5_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/evi5_squared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/lstmax5_cubed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/lstmax5_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/lstmax5_squared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/precip5_cubed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/precip5_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/precip5_squared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/tave5_cubed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/tave5_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/tave5_squared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/vpdave5_cubed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/vpdave5_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/Responses/vpdave5_squared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/figure_yield_response_lowess.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_ILLINOIS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_ILLINOIS_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_ILLINOIS_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_INDIANA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_INDIANA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_INDIANA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_IOWA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_IOWA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_IOWA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_KANSAS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_KANSAS_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MICHIGAN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MICHIGAN_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MICHIGAN_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MINNESOTA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MINNESOTA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MINNESOTA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MISSOURI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MISSOURI_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_MISSOURI_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NEBRASKA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NEBRASKA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NEBRASKA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NORTH DAKOTA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NORTH DAKOTA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_NORTH DAKOTA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_OHIO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_OHIO_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_OHIO_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_SOUTH DAKOTA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_SOUTH DAKOTA_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_SOUTH DAKOTA_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_WISCONSIN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_WISCONSIN_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_WISCONSIN_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_global.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_global_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/interannualVariation/interannual_var_global_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/precip6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/precip7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/precip8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/precip9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/vpdave6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/vpdave7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/knots/vpdave8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_Predicted_Actual_yield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/mapPlots/figure_map_prediction_performance_rainfed_leave_one_year_out_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/points.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/pointsMedians.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/pointsMediansMins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/pointsVPD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/tave_points.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/tave_pointsMedians.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/tave_pointsMediansMins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/vpd_points.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/vpd_pointsMedians.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/northDakotaAnomaly/vpd_pointsMediansMins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/scatterPlots/scatter_plot_vpd_spline_evi_poly_2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/figures/secondScatter/scatter_plot_vpd_spline_evi_poly_2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/getKnots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/interannual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/modelCountyVariations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/plan.otl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/plotScatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/printStats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/printStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizationCode/regularize.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1536547856">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="otl" value="1" />
+          <entry key="py" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="4599" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="4599" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/printStats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2435">
+              <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_state_variability_causes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/boxplots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/examineData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/exploreND.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/interannual.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizationCode/getKnots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+              <folding>
+                <element signature="e#17#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_yield_response_lowess.py" />
+        <option value="$PROJECT_DIR$/visualizationCode/boxplots.py" />
+        <option value="$PROJECT_DIR$/visualizationCode/getKnots.py" />
+        <option value="$PROJECT_DIR$/visualizationCode/examineData.py" />
+        <option value="$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_map_prediction_performance.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="720" />
+    <option name="y" value="23" />
+    <option name="width" value="720" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
+              <item name="dataFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
+              <item name="visualizationCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
+              <item name="visualizationCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Crop_modeling-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bef0bfd2-22e5-4b96-9b65-3e9474bd3c58" name="Default Changelist" comment="" />
+      <created>1541474043123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541474043123</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/combine_crop_model_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/func_crop_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5401">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plan.otl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_comparisons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_yield_response_lowess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_global_state_model_comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_prediction_national.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/printStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2435">
+          <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_model_performance_state_variability_causes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/newR_Prediction_CSVs/statsDirectory/evi_poly_only_stats.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/boxplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/exploreND.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/interannual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/getKnots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="e#17#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/Crop_modeling-master/plot_map_prediction_performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="116" column="33" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizationCode/examineData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

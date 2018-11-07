@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/744610c/
+cal_rmse	plot_map_prediction_performance.py	/^def cal_rmse(d,col_p,col_true):$/;"	f
+ccrs	plot_map_prediction_performance.py	/^import cartopy.crs as ccrs$/;"	I
+get_county_performance	plot_map_prediction_performance.py	/^def get_county_performance(model='vpd_spline_evi_poly', yield_type='rainfed', prediction_type='l/;"	f
+make_plot	plot_map_prediction_performance.py	/^def make_plot(yield_type='rainfed', prediction_type='leave_one_year_out',year=-1):$/;"	f
+mpl	plot_map_prediction_performance.py	/^import matplotlib as mpl$/;"	I
+my_colormap	plot_map_prediction_performance.py	/^def my_colormap(name='RdBu', customize=False):$/;"	f
+norm_cmap	plot_map_prediction_performance.py	/^def norm_cmap(cmap, vmin=None, vmax=None):$/;"	f
+np	plot_map_prediction_performance.py	/^import numpy as np$/;"	I
+pd	plot_map_prediction_performance.py	/^import pandas as pd$/;"	I
+plot_map	plot_map_prediction_performance.py	/^def plot_map(df,ax,year=-1):$/;"	f
+plt	plot_map_prediction_performance.py	/^import matplotlib.pyplot as plt$/;"	I
+shpreader	plot_map_prediction_performance.py	/^import cartopy.io.shapereader as shpreader$/;"	I
