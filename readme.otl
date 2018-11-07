@@ -51,7 +51,8 @@ getKnots
 	Print loess regression functions to identify knots for several types of predictors
 showKnots (this is better than getKnots)
 	Print loess regression functions to identify knots for several types of predictors
-printStats
+.printStats
+	This is a hidden file (it is precede by . since it was designed for Aahan's convenience)
 	Determine the R2 and RMSE using a prediction csv:
 	calculateR2
 		For prediction csvs obtained using Aahan's function if Aahan's function

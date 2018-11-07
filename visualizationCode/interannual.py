@@ -4,6 +4,10 @@ import pandas as pd
 
 
 def interannual():
+    """
+    Plot the interannual RMSE and R2 variation of the best model vpd_spline_evi_poly
+    :return:
+    """
     df = pd.read_csv('../dataFiles/newR_Prediction_CSVs/statsDirectory/vpd_spline_evi_poly_stats.csv')
     colorArray = ['b-']
     colorArray2 = ['bo']
@@ -31,8 +35,6 @@ def interannual():
 
     plt.show()
     
-
-
 
 # A: Global Regression (yield ~ X5 + X6 + X7 + X8 + Y5 + Y6 + Y7 + Y8)
 # B: Varying Slope (X) + Varying Intercept + Fixed Slope (Y) + No Correlation in Slope and Intercept

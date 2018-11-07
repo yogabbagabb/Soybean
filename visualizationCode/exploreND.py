@@ -9,6 +9,10 @@ from scipy.stats import pearsonr
 
 
 homePath = os.getcwd()
+"""
+Obtain statistics for North Dakota
+TODO: Document this code.
+"""
 
 
 # mng = plt.get_current_fig_manager()

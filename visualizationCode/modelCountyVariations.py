@@ -12,6 +12,13 @@ homePath = os.getcwd()
 
 
 def prediction_result_by_county(test,yield_type='rainfed', minNumYears = 0):
+    """
+    Get R2, RMSE and R2_classic statistics for each county.
+    :param test:
+    :param yield_type:
+    :param minNumYears:
+    :return:
+    """
 
     # Create a multi-index dataframe to save state results
     yield_type_dict = {'all': 'yield', 'rainfed':'yield_rainfed','irrigated':'yield_irr'}
@@ -56,6 +63,12 @@ def prediction_result_by_county(test,yield_type='rainfed', minNumYears = 0):
     return result        
 
 def getRainfedYieldSTD(stateFilter = [], minNumYears = 1):
+    """
+    Get the standard deviation of rainfed yield for the original soybean dataset.
+    :param stateFilter:
+    :param minNumYears:
+    :return:
+    """
 
 
     os.chdir("../dataFiles/")
@@ -83,6 +96,15 @@ def getRainfedYieldSTD(stateFilter = [], minNumYears = 1):
 
 
 def plotInterannualVar(minNumYears, states =[], globalPlot=False):
+    """
+    Plot rainfed yield standard deviation by
+    variation in R2 and RMSE  for vpd_spline_evi_poly, the best model. Plot this variation
+    across all states and, then, for each state.
+    :param minNumYears: The minimum number of years of data (entries) that a county within a state should have.
+    :param states: The states to construct plots for.
+    :param globalPlot: Look at the temporal yield variability across all states if true; otherwise, just use one state.
+    :return:
+    """
     os.chdir("../dataFiles/newR_Prediction_CSVs/")
     D = pd.read_csv("vpd_spline_evi_poly")
     os.chdir(homePath)
@@ -163,8 +185,4 @@ if __name__ == "__main__":
     plotInterannualVar(13,globalPlot=True)
 
 
-    # for state in states:
-        # plotInterannualVar(13,[state],globalPlot=False)
-
-    # plotInterannualVar(13,globalPlot=True)
 

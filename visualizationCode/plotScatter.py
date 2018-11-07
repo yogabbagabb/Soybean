@@ -9,7 +9,9 @@ sys.path.append('../predictionCode')
 from soybean_new_model import *
 
 
-
+'''
+Plot actual yield versus all yield for the best model, vpd_spline_evi_poly.
+'''
 if __name__ == "__main__":
 
     # Change our working directory. After changing it, we can read
