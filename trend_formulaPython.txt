@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Q('yield_rainfed')   R-squared:                       0.238
+Model:                            OLS   Adj. R-squared:                  0.238
+Method:                 Least Squares   F-statistic:                     9222.
+Date:                Wed, 07 Nov 2018   Prob (F-statistic):               0.00
+Time:                        19:43:31   Log-Likelihood:            -1.0663e+05
+No. Observations:               29490   AIC:                         2.133e+05
+Df Residuals:                   29488   BIC:                         2.133e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   -949.4537     10.273    -92.422      0.000    -969.589    -929.318
+year           0.4938      0.005     96.033      0.000       0.484       0.504
+==============================================================================
+Omnibus:                     1357.716   Durbin-Watson:                   0.870
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1551.052
+Skew:                          -0.556   Prob(JB):                         0.00
+Kurtosis:                       3.156   Cond. No.                     3.92e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.92e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
