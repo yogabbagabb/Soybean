@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef0bfd2-22e5-4b96-9b65-3e9474bd3c58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Soybean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soybean.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" beforeDir="false" afterPath="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.otl" beforeDir="false" afterPath="$PROJECT_DIR$/readme.otl" afterDir="false" />
-    </list>
+    <list default="true" id="bef0bfd2-22e5-4b96-9b65-3e9474bd3c58" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +12,10 @@
     <session id="-1536547856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,7 +37,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1346" />
-          <entry key="Python" value="6573" />
+          <entry key="Python" value="7237" />
           <entry key="R" value="6561" />
         </counts>
       </usages-collector>
@@ -50,7 +46,7 @@
         <counts>
           <entry key="R" value="6566" />
           <entry key="otl" value="1341" />
-          <entry key="py" value="6573" />
+          <entry key="py" value="7237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -58,7 +54,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/predictionCode/soybean_new_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="299" column="61" selection-start-line="299" selection-start-column="61" selection-end-line="299" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/visualizationCode/printStats.py" />
         <option value="$PROJECT_DIR$/predictionCode/soybean_model_inR.R" />
         <option value="$PROJECT_DIR$/readme.otl" />
+        <option value="$PROJECT_DIR$/predictionCode/soybean_new_model.py" />
       </list>
     </option>
   </component>
@@ -98,9 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,10 +116,17 @@
               <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soybean" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Soybean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soybean" type="462c0819:PsiDirectoryNode" />
+              <item name="predictionCode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,15 +168,16 @@
     <option name="totallyTimeSpent" value="2889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287858" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -175,18 +191,18 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="R Graphics" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,9 +310,7 @@
     <entry file="file://$PROJECT_DIR$/predictionCode/catalog.R">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/predictionCode/data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/predictionCode/data" />
     <entry file="file://$PROJECT_DIR$/predictionCode/soybean_model_inR.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -306,6 +320,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.otl">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictionCode/soybean_new_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="299" column="61" selection-start-line="299" selection-start-column="61" selection-end-line="299" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

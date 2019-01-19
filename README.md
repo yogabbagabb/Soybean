@@ -2,12 +2,12 @@
 
 ## dataFiles
 ### R_Prediction_CSVs/
-	Contains the data frames that are formed after making predictions and concatenating
+	Contains data frames that are formed after making predictions and concatenating
 	the predictions (as a column) to the original dataset that the predictions' model
-	was bsed upon
+	was based upon
 
 ## yanModelStats/
-	Contains statistics for RMSE and R2 than one using LOO Cross
+	Contains statistics for RMSE and R2 that one obtains using LOO Cross
 	Validation on each of the years from 2003 to 2016.
 
 ## soybean_handled_dataset (csv file)
@@ -86,9 +86,6 @@ ____________
 		specifiable predictors.
 
 ### getKnots
-	Print loess regression functions to identify knots for several types of predictors
-
-### showKnots (this is better than getKnots)
 	Print loess regression functions to identify knots for several types of predictors
 
 ### .printStats
